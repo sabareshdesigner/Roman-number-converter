@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #1b1b32;
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.main {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo > img {
+  height: 30px;
+  margin: 10px 0;
+  width: min(100vw, 450px);
+}
+
+.main > h1 {
+  font-size: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 530;
+  margin-top: 20px;
+  width: min(100vw, 450px);
+  display: flex;
+  text-align: center;
+}
+
+.form {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 3px solid white;
+  background-color: #3b3b4f;
+  width: min(100vw, 450px);
+}
+
+.form > .form-label {
+  margin: 10px 0;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.form > .form-input {
+  background-color: #0a0a23;
+  font-size: 30px;
+  margin: 15px 30px;
+  border: 1px solid white;
+  padding: 10px;
+  color: white;
+}
+
+.form .Convert-btn {
+  height: 50px;
+  margin: 10px 35px;
+  font-size: 25px;
+  cursor: pointer;
+  background-image: linear-gradient(#fecc4c, #ffac33);
+  outline: none;
+  border: 2px solid #ff9900;
+}
+
+.hidden {
+  display: none;
+}
+
+.output {
+  margin-top: 30px;
+  padding: 20px;
+  border: 3px solid white;
+  background-color: #3b3b4f;
+  width: min(100vw, 450px);
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.alert {
+  background-color: #ffadad;
+  border: 3px solid #850000;
+  color: #850000;
+  font-size: 30px;
+}
+
+.true {
+  background-color: #bdffad;
+  border: 3px solid #358500;
+  color: #358500;
+  font-size: 30px;
+}
